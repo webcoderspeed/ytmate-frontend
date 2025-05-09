@@ -381,7 +381,7 @@ export default function ToolPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <div className="sm:w-1/3">
                     <img
-                      src={`${BASE_URL}/proxy?url=${encodeURIComponent(previewData.thumbnail)}`}
+                      src={`${BASE_URL}proxy?url=${encodeURIComponent(previewData.thumbnail)}`}
                       alt={previewData.title}
                       className="w-full rounded-md"
                     />
