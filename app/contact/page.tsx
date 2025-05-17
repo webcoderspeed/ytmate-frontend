@@ -63,7 +63,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 gap-8 mb-12">
           <Card>
             <CardContent className="p-6 flex flex-col items-center text-center">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
@@ -72,28 +72,6 @@ export default function ContactPage() {
               <h3 className="text-xl font-semibold mb-2">Email</h3>
               <p className="text-muted-foreground">support@ytmate.in</p>
               <p className="text-muted-foreground">info@ytmate.in</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6 flex flex-col items-center text-center">
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <Phone className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Phone</h3>
-              <p className="text-muted-foreground">+91 98765 43210</p>
-              <p className="text-muted-foreground">Monday to Friday, 9am to 6pm IST</p>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardContent className="p-6 flex flex-col items-center text-center">
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <MapPin className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-semibold mb-2">Address</h3>
-              <p className="text-muted-foreground">123 Tech Park, Sector 15</p>
-              <p className="text-muted-foreground">Gurugram, Haryana 122001, India</p>
             </CardContent>
           </Card>
         </div>
@@ -267,19 +245,6 @@ export default function ContactPage() {
               </CardContent>
             </Card>
           </div>
-        </div>
-
-        <div className="rounded-lg overflow-hidden border h-[400px] relative">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2233913121413!2d77.07173491508096!3d28.50292598247381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1a9c31eee7e7%3A0x88a09f0c029b69f!2sSector%2015%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1651825248264!5m2!1sen!2sin"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={false}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="YTMate.in Office Location"
-          ></iframe>
         </div>
       </motion.div>
     </div>
